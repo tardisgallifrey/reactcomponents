@@ -5,8 +5,7 @@
 <p>My component code will be somewhat different than Zoltan's as I'm practicing Javascript ES6 and I see some reasonable mods for the components to make them useful</p>
 <p>I'm publishing this repo quickly as a blunder caused me to lose all of the first two components before they were saved.</p>
 <p>I'm also making use of an npm package to allow conditional code in CSS classNames.<p>
-```Use:
-
-npm install classnames```
+    Use:
+    npm install classnames
 <p>You'll want to keep checking here as I go through the lessons to see all the output and changes.</p>
 <p>Feel free to use what I've posted, but do so at your own risk.</p>
