@@ -5,7 +5,15 @@
 <p>My component code will be somewhat different than Zoltan's as I'm practicing Javascript ES6 and I see some reasonable mods for the components to make them useful</p>
 <p>I'm publishing this repo quickly as a blunder caused me to lose all of the first two components before they were saved.</p>
 <p>I'm also making use of an npm package to allow conditional code in CSS classNames.<p>
+
+```
     Use:
     npm install classnames
+```
+<p>I'm also making use of a symbolic link in my /public folder to access icon images.  I'm not using the svg icons from Zoltan's lessons.  You can do that on Linux.  I have Gnome with Adwaita as my theme, so the following works.  If your distribution is different, change it to point where icon images are kept.</p>
+
+```
+ln -s /usr/share/icons/Adwaita/32x32/status icons
+```
 <p>You'll want to keep checking here as I go through the lessons to see all the output and changes.</p>
 <p>Feel free to use what I've posted, but do so at your own risk.</p>
