@@ -16,4 +16,5 @@
 ln -s /usr/share/icons/Adwaita/32x32/status icons
 ```
 <p>You'll want to keep checking here as I go through the lessons to see all the output and changes.</p>
+<p>11/28/2021: Added React V6 Router and pages to turn this into a complete App.  I discovered after just a few of FlowBites tutorials that this would take more than one signle page (SPA).  However, now it is easier to browse the components to discover what you want.<p>
 <p>Feel free to use what I've posted, but do so at your own risk.</p>
