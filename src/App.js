@@ -8,6 +8,8 @@ export default function App(){
         <NavBar />
         <Outlet />
         <h1>Welcome!</h1>
+        <hr />
+        <p>The Navigation Menu Bar above is a component in use throughout this app.</p>
       </div>
     );
 }
