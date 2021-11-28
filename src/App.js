@@ -1,17 +1,13 @@
-import Alert from "./components/alert";
-import Badge from "./components/badge";
-import BreadCrumb from "./components/breadcrumb";
+import { Outlet } from "react-router-dom";
+import NavBar from "./components/navbar";
 
-const color="green";
+export default function App(){
 
-function App() {
-  return (
-    <div>
-      <Alert title="Fire Sale!" message="  I have no idea" color={color} />
-      <Badge title="Your Badge" color={color} />
-      <BreadCrumb />
-    </div>
-  );
+    return(
+      <div>
+        <NavBar />
+        <Outlet />
+        <h1>Welcome!</h1>
+      </div>
+    );
 }
-
-export default App;

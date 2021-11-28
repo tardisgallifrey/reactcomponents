@@ -14,7 +14,9 @@ import classnames from 'classnames';
 export default class Alert extends React.Component {
     constructor(props){
         super(props);
-        this.state = props;
+        //This is incorrect: this.state = props;
+        //Below is correct:
+        this.state = Object.assign({}, props);
     }
 
     render(){
